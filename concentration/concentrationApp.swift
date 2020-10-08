@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct concentrationApp: App {
+struct ConcentrationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavView()
         }
+    }
+}
+
+struct ConcentrationApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
